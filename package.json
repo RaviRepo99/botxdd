@@ -1,0 +1,35 @@
+{
+  "name": "payme",
+  "version": "1.0.2",
+  "description": "A Telegram bot for payment processing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram bot",
+    "payment processing",
+    "telegram payment bot",
+    "telegram payment processing",
+    "telegram payment processing bot",
+    "telegram payment processing bot",
+    "telegram payment processing bot",
+    "telegram payment processing bot",
+    "telegram payment processing bot",
+    "telegram payment processing bot"
+  ],
+  "author": "Samir Thakuri",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "node-telegram-bot-api": "^0.67.0",
+    "pg": "^8.20.0",
+    "winston": "^3.19.0"
+  },
+  "overrides": {
+    "request": "npm:@cypress/request@^3.0.8",
+    "request-promise": "npm:@cypress/request-promise@^5.0.0",
+    "request-promise-core": "npm:request-promise-core@^1.1.4"
+  }
+}
