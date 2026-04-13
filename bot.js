@@ -43,7 +43,7 @@ module.exports = function startBot() {
   };
   const PLATFORM_ADMINS = {
     '1xBet': parseAdminIds(process.env.ADMIN_ID_1XBET || '8760970149'),
-    'Melbet': parseAdminIds(process.env.ADMIN_ID_MELBET || '8335726985,7596443202'),
+    'Melbet': parseAdminIds(process.env.ADMIN_ID_MELBET || '6287664824,7596443202'),
     'Paripulse': parseAdminIds(process.env.ADMIN_ID_PARIPULSE || '7409544646')
   };
   const ALL_ADMIN_IDS = new Set(
